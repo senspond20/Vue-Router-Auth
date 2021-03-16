@@ -40,6 +40,10 @@
                     })
                     .then(response => {
                        console.log(response.data)
+                       var token = response.data.token;
+                       console.log(token);
+                       localStorage.setItem('user',token);
+                      
                     })
                     .catch(function (error) {
                         console.error(error.response);
