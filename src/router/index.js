@@ -40,10 +40,11 @@ router.beforeEach((to, from, next) => {
   console.log("accessToken : ", loggedIn)
   // 2번 해결 requiresAuth 체크
   // if (to.matched.some(record => record.meta.requiresAuth)) {
-    if (loggedIn === null) {
-      next("/login");
-      return;
-    }
+    // if (loggedIn === null) {
+    //   next("/login");
+    //   return;
+    // }
+    
     next();
   // }
   // requiresAuth가 false일때 즉, 권한이 필요 없는 페이지 일때
