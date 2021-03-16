@@ -2,8 +2,8 @@
 
 > A Vue.js project
 
-+ client : Vue (Port 3000)
-+ server : Spring (Port 8080)
++ client : Vue (Port 3000) - [Senspond20/Vue-Router-Auth](https://github.com/senspond20/Vue-Router-Auth)
++ server : Spring (Port 8080) - [Senspond20/Spring JWT](https://github.com/senspond20/Spring_JWT)
 
 ## Build Setup
 
