@@ -2,6 +2,9 @@
 
 > A Vue.js project
 
++ client : Vue (Port 3000)
++ server : Spring (Port 8080)
+
 ## Build Setup
 
 ```bash
@@ -29,5 +32,6 @@ new Vue({
   template: '<App/>'
 })
 ```
+
 
 
